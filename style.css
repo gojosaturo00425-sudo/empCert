@@ -1,0 +1,51 @@
+.password-container {
+            position: relative;
+            width: 100%;
+                    }
+.show-btn {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            height: 32px;
+            outline: none;
+            border: none;
+            cursor: pointer; 
+        }
+
+td.caps-lock-text{
+    text-transform: uppercase;
+}
+.my-container {
+  width: 90%;       /* Spans the full width of its parent */
+  max-width: 100%; /* Prevents the container from growing past 1200px */
+      /* Automatically adjusts height based on internal content */
+}
+.search-box{
+          position: relative; 
+          width: 100%;
+          max-width: 100%;
+}
+.parent-container {
+  position: relative; /* Acts as the anchor point for the absolute section */
+  width: 100%;       /* Spans the full width of its parent */
+  max-width: 100%; /* Prevents the container from growing past 1200px */
+}
+
+table, th, td {
+  background-color: none;
+  border: none;
+
+}
+
+
+th, td {
+  border: none;
+  /* text-align: center; */
+}
+th {
+  cursor: pointer;
+  max-width: 100%;
+  /* width: 20%; */
+  position: center;
+}
+
